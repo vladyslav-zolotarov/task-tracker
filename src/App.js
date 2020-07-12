@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import '../src/globalStyle/style.scss'
+
+import ListOfLists from "./components/ListOfLists/index";
+import ListOfTasks from "./components/ListOfLists/ListOfTasks";
+// import Index from "./components/ListOfLists/ListOfTasks";
+// import Index from "./components/ListOfLists/ListOfTasks/CardOfTask";
+import AddNewListOfLists from "./components/ListOfLists/AddNewListOfLists";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div>
+     <ListOfLists />
+     <AddNewListOfLists />
+   </div>
+
   );
 }
 

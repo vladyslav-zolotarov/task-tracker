@@ -1,0 +1,12 @@
+@import '../../../../src/globalStyle/style';
+
+
+.list-task{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+  width: 300px;
+
+  background-color: $grey-one;
+}
