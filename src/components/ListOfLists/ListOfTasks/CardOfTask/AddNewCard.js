@@ -2,16 +2,15 @@ import React from "react";
 import './style.scss'
 import { GoPlusSmall } from "react-icons/all";
 
-
-const AddNewListOfLists = () =>{
+const AddNewCard = () => {
   return(
-    <div className="add-new-list">
-      <button className="add-new-list-butt">
+    <div className="add-new-card">
+      <button className="add-new-card-butt">
         <GoPlusSmall size="20" />
-        <p>Add new list</p>
+        <p>Add new card</p>
       </button>
     </div>
   )
 };
 
-export default AddNewListOfLists;
+export default AddNewCard;

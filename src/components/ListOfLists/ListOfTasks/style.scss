@@ -4,9 +4,46 @@
 .list-task{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  //justify-content: center;
-  width: 300px;
-
+  word-break: break-word;
+  padding: 8px;
+  margin: 0 10px;
+  min-width: 254px;
+  border-radius: 3px;
+  box-shadow: $box-shadow;
   background-color: $grey-one;
+
+  .list-task-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 0 5px 0;
+    padding: 8px;
+
+    p{
+      font-weight: bold;
+      font-size: large;
+      width: 85%;
+    }
+
+    .list-task-title-icon{
+      width: 15%;
+      display: flex;
+      justify-content: center;
+      background-color: $grey-one;
+      border: 0;
+      padding: 2px;
+      color: $grey-three;
+
+      &:hover{
+        border-radius: 3px;
+        background-color: $grey-two;
+        color: black;
+        cursor: pointer;
+      }
+
+      &:focus{
+        outline: none;
+      }
+    }
+  }
+
 }

@@ -1,0 +1,64 @@
+@import "../../../../globalStyle/style";
+
+.card-of-task{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 3px;
+  padding: 8px;
+  margin: 5px 0;
+  box-shadow: $box-shadow;
+
+  .card-of-task-title{
+    width: 85%;
+  }
+
+  .card-of-task-icon{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 0;
+    padding: 2px;
+    color: $grey-three;
+
+    &:hover{
+      border-radius: 3px;
+      //background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+
+    &:focus{
+      outline: none;
+    }
+  }
+}
+
+.add-new-card{
+  margin: 5px 0;
+
+  .add-new-card-butt{
+    display: flex;
+    padding: 8px;
+    width: 100%;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px $grey-two solid;
+    color: $grey-three;
+    background-color: $grey-one;
+
+    &:hover{
+      cursor: pointer;
+      opacity: 50%;
+    }
+
+    &:focus{
+      outline: none;
+    }
+
+    p{
+      margin-left: 5px;
+    }
+  }
+}
