@@ -6,7 +6,7 @@
   background-color: white;
   border-radius: 3px;
   padding: 8px;
-  margin: 5px 0;
+  margin: 10px 0;
   box-shadow: $box-shadow;
 
   .card-of-task-title{
@@ -61,4 +61,57 @@
       margin-left: 5px;
     }
   }
+}
+
+.add-new-card-input-main{
+
+  display: flex;
+  flex-direction: column;
+
+  .add-new-card-input {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    min-width: 238px;
+    border-radius: 3px;
+    border: 0;
+    color: $grey-three;
+    resize: none;
+
+    &:hover {
+      cursor: text;
+      //opacity: 50%;
+    }
+
+    &:focus {
+      //outline: 1px dashed blue;
+      box-shadow: 0 0 0 1pt $green-one;
+      outline: none;
+    }
+  }
+
+
+  .add-new-card-add-butt{
+    width: 50%;
+    height: 32px;
+    margin-top: 10px;
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px $green-one solid;
+    color: $green-one;
+    background-color: $grey-one;
+
+    &:hover{
+      cursor: pointer;
+      opacity: 50%;
+    }
+
+    &:focus{
+      outline: none;
+    }
+  }
+
 }
