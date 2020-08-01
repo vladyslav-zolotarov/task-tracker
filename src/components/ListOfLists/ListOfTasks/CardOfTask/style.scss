@@ -9,6 +9,62 @@
   margin: 10px 0;
   box-shadow: $box-shadow;
 
+  .update-input{
+    width: 85%;
+    border: 0;
+    border-bottom: 1px solid $grey-three;
+
+    &:focus {
+      //border-radius: 3px;
+      //border: 0;
+      //box-shadow: 0 0 0 1pt $green-one;
+      border-bottom: 1px solid $green-one;
+      outline: none;
+    }
+  }
+
+  .update-accept, .update-decline{
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 19px;
+    border: 0;
+    background-color: white;
+
+    &:hover{
+      border-radius: 3px;
+      //background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+
+    &:focus{
+      outline: none;
+    }
+  }
+
+  .update-button{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border: 0;
+    padding: 2px;
+    color: $grey-three;
+
+    &:hover{
+      border-radius: 3px;
+      //background-color: white;
+      color: black;
+      cursor: pointer;
+    }
+
+    &:focus{
+      outline: none;
+    }
+  }
+
   .card-of-task-title{
     width: 85%;
   }

@@ -1,0 +1,87 @@
+@import '../../../src/globalStyle/style';
+
+//.update-button{
+//  width: 15%;
+//  display: flex;
+//  justify-content: center;
+//  background-color: white;
+//  border: 0;
+//  padding: 2px;
+//  color: $grey-three;
+//
+//  &:hover{
+//    border-radius: 3px;
+//    //background-color: white;
+//    color: black;
+//    cursor: pointer;
+//  }
+//
+//  &:focus{
+//    outline: none;
+//  }
+//}
+
+.opened{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  border-radius: 3px;
+  box-shadow: $box-shadow;
+  background-color: $grey-two;
+  //color: red;
+  position: absolute;
+  //top: 115px;
+  margin-top: 28px;
+  margin-left: 36px;
+  width: 200px;
+  //left: 210px;
+
+  .opened-menu{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid $grey-three;
+    padding: 0 10px 8px 10px;
+    margin-bottom: 5px;
+
+    .opened-menu-butt{
+      display: flex;
+      align-items: center;
+      border: 0;
+      background-color: $grey-two;
+
+      &:hover{
+        opacity: 0.5;
+        cursor: pointer;
+      }
+
+      &:focus{
+        border: 0;
+        background-color: $grey-two;
+        outline: none;
+      }
+    }
+  }
+}
+
+.rename, .delete{
+  height: 30px;
+  //margin: 3px;
+  background-color: $grey-two;
+  border: 0;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  padding: 8px 10px;
+
+  &:hover{
+    background-color: #cacaca;
+    //opacity: 0.8;
+    cursor: pointer;
+  }
+
+  &:focus{
+    border: 0;
+    //background-color: $grey-two;
+    outline: none;
+  }
+}

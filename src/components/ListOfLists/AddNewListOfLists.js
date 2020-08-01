@@ -34,7 +34,7 @@ const AddNewListOfLists = ({addNewListOfLists}) =>{
     else{
       return (
         <div className="display-table">
-          <div className="add-new-list-input-main">
+          <form onClick={e=>e.preventDefault()} className="add-new-list-input-main">
             <input
               value={inputValue}
               onChange={e=>setInputValue(e.target.value)}
@@ -46,7 +46,7 @@ const AddNewListOfLists = ({addNewListOfLists}) =>{
               className="add-new-list-add-butt"
               onClick={()=>onSubmit()}
             >Add list</button>
-          </div>
+          </form>
         </div>
       )
     }

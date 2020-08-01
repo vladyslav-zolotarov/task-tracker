@@ -11,7 +11,7 @@ const ListOfTasks =({idList, title, listOfTasks}) =>{
   const listOfCards = listOfTasks.map((card, index)=>{
     if(card.id === idList){
       return(
-        <CardOfTask task={card.task} idList={idList} key={index} />
+        <CardOfTask task={card.task} idList={idList} key={index} cardId={card.idCard} />
       )
     }
     return <div key={index}></div>

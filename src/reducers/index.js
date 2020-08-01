@@ -37,17 +37,38 @@ const showListOfListsReducer = (state = initialState.lists, action) =>{
 };
 
 const showListOfTasksReducer = (state = initialState.tasks, action) => {
-  if (action.type === 'ADD_NEW_LIST_OF_TASKS') {
-    return [
-      ...state,
-      {
-        id: action.id,
-        idCard: action.idCard,
-        task: action.task
-      }
-    ];
-  } else {
-    return state;
+  console.log("list", state);
+  switch(action.type){
+    case 'ADD_NEW_LIST_OF_TASKS':
+      return [
+        ...state,
+        {
+          id: action.id,
+          idCard: action.idCard,
+          task: action.task
+        }
+      ];
+
+    case 'RENAME_LIST_OF_TASKS':
+      console.log('remove',state)
+      return state.map(list=>{
+          if(list.id === action.id){
+            if(list.idCard === action.idCard){
+              list.task = action.task
+            }
+          }
+          return list;
+        });
+
+    case 'DELETE_LIST_OF_TASKS':
+      return state.filter(task => task.idCard !== action.idCard);
+      // return {
+      //   ...state,
+      //   tasks: state.filter(task => task.id !== action.id)
+      // }
+
+    default:
+      return state;
   }
 };
 

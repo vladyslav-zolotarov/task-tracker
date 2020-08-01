@@ -49,15 +49,12 @@ const AddNewCard = ({listOfTasks ,addNewListOfTasks, idList}) => {
             <button
               className="add-new-card-add-butt"
               onClick={()=>onSubmit()}
-            >Add list</button>
+            >Add task</button>
           {/*</div>*/}
         </div>
       )
     }
   };
-
-
-
 
 
   return(

@@ -7,7 +7,10 @@ import {addNewListOfLists, addNewListOfTasks} from "../../actions";
 
 const ListOfLists = ({ listOfLists,listOfTasks, addNewListOfLists, addNewListOfTasks }) => {
 
-    const list = listOfLists.map((list, index)=>{
+  // console.log(addNewListOfLists)
+
+
+  const list = listOfLists.map((list, index)=>{
       return(
         <ListOfTasks idList={list.id}  listOfTasks={listOfTasks} title={list.title} key={index} />
       )
