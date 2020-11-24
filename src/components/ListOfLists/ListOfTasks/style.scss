@@ -44,6 +44,64 @@
         outline: none;
       }
     }
+
+    .functionalContent{
+      display: flex;
+      flex-direction: column;
+      position: absolute;
+      margin: 0 0 0 240px;
+      padding: 10px 4px;
+      min-width: 150px;
+      box-shadow: 1px 1px 5px 1px #c0c0c0;
+      background-color: #ebecf0;
+
+      .top{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        border-bottom: 1px #d6d7da solid;
+        padding: 0 5px 5px 5px;
+        margin-bottom: 15px;
+
+        .butt-close{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border: 0;
+          background-color: #ebecf0;
+
+          &:hover{
+            cursor: pointer;
+          }
+
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+
+      .main{
+        display: flex;
+        flex-direction: column;
+
+        button{
+          height: 30px;
+          border: 0;
+          background-color: #ebecf0;
+
+
+          &:hover{
+            cursor: pointer;
+            background-color: #e5e6ea;
+          }
+
+          &:focus{
+            outline: none;
+          }
+        }
+      }
+
+    }
   }
 
 }

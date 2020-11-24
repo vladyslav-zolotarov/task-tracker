@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="48d26dab-818a-441e-a579-1e77fa317e30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/specComponents/AddButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/specComponents/UpdateButton/UpdateButton.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/specComponents/UpdateButton/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/AddNewListOfLists.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/AddNewListOfLists.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/CardOfTask/AddNewCard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/CardOfTask/AddNewCard.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/CardOfTask/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/CardOfTask/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/CardOfTask/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/CardOfTask/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/ListOfTasks/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ListOfLists/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ListOfLists/style.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +87,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594593393554</updated>
-      <workItem from="1594593395301" duration="53927000" />
+      <workItem from="1594593395301" duration="55128000" />
+      <workItem from="1596328913746" duration="1594000" />
+      <workItem from="1597192025374" duration="1971000" />
+      <workItem from="1597608081519" duration="1872000" />
+      <workItem from="1604448858537" duration="321000" />
     </task>
     <servers />
   </component>
@@ -106,7 +103,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
